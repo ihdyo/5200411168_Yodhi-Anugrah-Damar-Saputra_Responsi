@@ -1,4 +1,4 @@
-# Responsi - Sistem Operasi Praktik Kelompok V - Manajemen Round Robin
+# Responsi - Sistem Operasi Praktik Kelompok V - Penjadwalan Round Robin
 # 5200411168 - Yodhi Anugrah Damar Saputra
 
 # tampilkan judul program

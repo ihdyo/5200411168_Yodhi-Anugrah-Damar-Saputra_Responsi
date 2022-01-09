@@ -7,6 +7,9 @@ Yodhi Anugrah Damar Saputra - 5200411168
 </div>
 
 <br>
+
+> Laporan berbentuk pdf dapat dilihat [di sini](5200411168_Yodhi%20Anugrah%20Damar%20Saputra_Responsi.pdf)
+
 <br>
 
 ## 1. Manajemen RAM

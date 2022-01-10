@@ -18,7 +18,7 @@ Sistem melakukan manajemen pemakaian RAM terhadap kapasitas sistem operasi serta
 
 ### Sistem akan meminta _input_ berupa:
 * Kapasitas total RAM
-* Total peta bit
+* Total blok per unit untuk menghitung peta bit
 * Kapasitas RAM yang digunakan oleh sistem operasi
 * Kapasitas RAM yang digunakan oleh program
 

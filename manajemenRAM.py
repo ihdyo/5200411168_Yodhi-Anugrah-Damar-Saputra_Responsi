@@ -16,14 +16,14 @@ RAMGB = int(input("Masukkan kapasitas total RAM! \n GB => "))
 
 print("")
 
-PetaBit = int(input("Masukkan kapasitas peta bit! \n MB => "))
+BlokPerUnit = int(input("Masukkan kapasitas blok per unit! \n MB => "))
 
 print("")
 
-OSGB = int(input("Masukkan kapasitas RAM OS! \n GB => "))
+OSGB = int(input("Masukkan kapasitas OS! \n GB => "))
 
 # sistem memeriksa validitas input
-if RAMGB < 0 or PetaBit < 0 or OSGB < 0:
+if RAMGB < 0 or BlokPerUnit < 0 or OSGB < 0:
     print("")
     print("=" * 24)
     print("|" + ("!" * 5) + " PERINGATAN " + ("!" * 5) + "|")
@@ -56,16 +56,16 @@ while 1:
         # konversi data yang diperlukan
         RAMMB = RAMGB * 1024
         OSMB = OSGB * 1024
-        BlokPerUnit = RAMMB / PetaBit
+        PetaBit = RAMMB / BlokPerUnit
 
         # opearsi data sisa
         RAMMBTerpakai = OSMB + ProgramTotal
-        BlokTerpakai = round(RAMMBTerpakai / PetaBit)
+        BlokTerpakai = round(RAMMBTerpakai / BlokPerUnit)
         RAMGBTerpakai = RAMMBTerpakai / 1024
 
         # opearsi data terpakai
         RAMMBSisa = RAMMB - RAMMBTerpakai
-        BlokSisa = round(BlokPerUnit - BlokTerpakai)
+        BlokSisa = round(PetaBit - BlokTerpakai)
         RAMGBSisa = RAMMBSisa / 1024
 
         # tampilkan info output yang diperlukan
